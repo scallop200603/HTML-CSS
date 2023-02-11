@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Friend</title>
+    <style>
+        .card {
+            box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
+            border-radius: 5px;
+            padding: 12px;
+            width: 450px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+        }
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            vertical-align: middle;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .text-box {
+            border: none;
+            font-size: 18px;
+            vertical-align: middle;
+            width: 300px;
+        }
+        .tweet-button {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 16px;
+            vertical-align: middle;
+        }
+
+        /* Oliver */
+        .oliver {
+            display: inline-block;
+            box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
+            margin-left: 30px;
+        }
+        .oliver:hover {
+            box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+        }
+        .avatar1 {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        .friend-name1 {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 8px;
+            margin-bottom: 5px;
+            margin-left: 10px;
+        }
+        .mutual-friend1 {
+            font-family: Arial;
+            color: rgb(96, 96, 96);
+            font-size: 16px;
+            margin-top: 0;
+            margin-left: 10px;
+        }
+        .add1 {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        /* Mimi */
+        .mimi {
+            display: inline-block;
+            box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
+            margin-left: 30px;
+        }
+        .mimi:hover {
+            box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+        }
+        .avatar2 {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        .friend-name2 {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 8px;
+            margin-bottom: 5px;
+            margin-left: 10px;
+        }
+        .mutual-friend2 {
+            font-family: Arial;
+            color: rgb(96, 96, 96);
+            font-size: 16px;
+            margin-top: 0;
+            margin-left: 10px;
+        }
+        .add2 {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        /* Rex */
+        .rex {
+            display: inline-block;
+            box-shadow: 0 0 6px rgb(0, 0, 0, 0.3);
+            margin-left: 30px;
+        }
+        .rex:hover {
+            box-shadow: 0 0 20px rgb(0, 0, 0, 0.3);
+        }
+        .avatar3 {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        .friend-name3{
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 8px;
+            margin-bottom: 5px;
+            margin-left: 10px;
+        }
+        .mutual-friend3 {
+            font-family: Arial;
+            color: rgb(96, 96, 96);
+            font-size: 16px;
+            margin-top: 0;
+            margin-left: 10px;
+        }
+        .add3 {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img class="profile-picture" src="img/cat-one.jpg">
+        <input type="text" class="text-box" placeholder="What's happening?">
+        <button class="tweet-button">
+            Tweet
+        </button>
+    </div>
+
+    <div class="oliver">
+        <img class="avatar1" src="img/cat-one.jpg" alt="">
+        <p class="friend-name1">Oliver</p>
+        <p class="mutual-friend1">2 mutual friends</p>
+        <button class="add1">Add Friend</button>
+    </div>
+
+    <div class="mimi">
+        <img class="avatar2" src="img/cat-two.webp" alt="">
+        <p class="friend-name2">Mimi</p>
+        <p class="mutual-friend2">3 mutual friends</p>
+        <button class="add2">Add Friend</button>
+    </div>
+
+    <div class="rex">
+        <img class="avatar3" src="img/mice.jpg" alt="">
+        <p class="friend-name3">Rex</p>
+        <p class="mutual-friend3">4 mutual friends</p>
+        <button class="add3">Add Friend</button>
+    </div>
+</body>
+
+</html>
